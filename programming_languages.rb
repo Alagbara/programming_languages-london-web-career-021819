@@ -4,7 +4,7 @@ def reformat_languages(languages)
   languages.each do |oo_functional, language|
     language.each do|name, language_details|
       language_details.each do|type, values|
-       binding.pry
+       #binding.pry
        if new_hash[name].nil?
          new_hash[name] = {}
       
