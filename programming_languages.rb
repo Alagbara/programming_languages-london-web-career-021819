@@ -13,4 +13,4 @@ def reformat_languages(languages)
  
       new_hash
 end
-:type => values, :style =>[oo_functional]
+#:type => values, :style =>[oo_functional]
